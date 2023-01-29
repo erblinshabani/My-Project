@@ -1,0 +1,23 @@
+.userProfile {
+    display: flex;
+    align-items: center;
+}
+
+.userProfile img {
+    width: 75px;
+    border-radius: 150px;
+    margin: 0 30px;
+}
+
+.userProfileData h2 {
+    font-size: 27px;
+    color: rgba(2, 2, 61, 0.943);
+    text-align: start;
+    margin-bottom: 0;
+}
+
+.userProfileData p{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgba(2, 2, 61, 0.943);
+}

@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.addTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addTask input{
+  width: 255px;
+  height: 30px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.addTask button {
+  padding: 9px 10px;
+}
+
+.list {
+  border: 1px solid rgba(0, 0, 0, 0.62);
+  width: 500px;
+  margin: 50px auto;
+  padding: 10px 50px;
+}
+
+.list div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.488);
+}
+
+.list div button {
+  padding: 6px 11px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* New Style */
+
+:root {
+  --body-background-color: #f1f1f1;
+  --background-color: #fff;
+  --font-color: #111;
+}
+
+.darkTheme {
+  --body-background-color: #222;
+  --background-color: #111;
+  --font-color: #fff
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--body-background-color);
+}
+
+nav {
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  color: var(--font-color);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 18px 30px;
+  font-size: 27px;
+}
+
+nav ul {
+  margin-right: 50px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+
+nav ul li a {
+  color: var(--font-color);
+  font-size: 18px;
+  margin-right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: orangered;
+  transition: all 0.2s;
+}
+
+
+.cart {
+  width: 400px;
+  height: 175px;
+  margin: 30px auto;
+  background-color: #fff;
+  border: 1px solid rgba(17, 17, 17, 0.517);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.25);
+}

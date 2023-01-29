@@ -1,0 +1,81 @@
+.article{
+    background-image: url('../images//fact.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+    height: 70vh;
+}
+
+.data {
+    background-color: rgba(154, 198, 211, 0.681);
+    width: 530px;
+    border: 2px solid purple;
+    border-radius: 20px;
+    padding: 30px 7px;
+}
+
+#facts-title {
+    font-size: 37px;
+    margin-top: 0px;
+    padding: 16px;
+    padding-bottom: 12px;
+}
+
+.data p {
+    color: rgb(82, 0, 109);
+    width: 90%;
+    font-size: 18px;
+    margin: 15px auto;
+}
+
+.data button {
+    border: 0;
+    padding: 5px 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 13px;
+}
+
+.data button:hover {
+    background-color:rgba(106, 29, 179, 0.677);
+    transition: all ease 0.2s;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+    .article{
+        height: 82vh;
+    }
+    
+    .data {
+        width: 430px;
+        margin-top: 90px;
+        padding: 40px 7px;
+    }   
+
+    .data p {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .article{
+        height: auto;
+        padding: 70px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .data {
+        width: 340px;
+        margin-top: 20px;
+        padding: 0px 7px;
+    }   
+
+    .data p {
+        font-size: 24px;
+    }
+}
